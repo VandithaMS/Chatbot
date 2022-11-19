@@ -1,0 +1,91 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hi there, how can I help?",
+          "How can i help you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+         "Thank You!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Thank You!"]
+      },
+      {
+        "tag": "slot",
+        "patterns": [
+          "can i get an appointment tomorrow at 11:00:00 am?",
+          "can i get it on 12/10/2022 at 04:00:00?",
+          "Are the slots free on 12.00 pm today?",
+          "i wanted it around 5.00 pm","on","at ","i want to book an appointment on"
+        ],
+        "responses": [
+          "Okay, Your appointment is scheduled",
+          "Tell us the date and time properly"
+        ]
+      },
+      {
+        "tag": "appointment",
+        "patterns": [
+          "I want to book an appointment",
+          "At what time slots are available",
+          "When can i get an appointment?",
+          "can i have an appointment?"
+        ],
+        "responses": [
+          "On what day and time you want an appointment ?"
+        ]
+      },
+      {
+        "tag": "fee",
+        "patterns": [
+          "What is the fee ?",
+          "fee",
+          "How much should i need to pay",
+          "Do u have any fees",
+          "When and how can i pay money"
+        ],
+        "responses": [
+          "Fee is Rs.200. You can pay it online or in cash"
+        ]
+      },
+      {
+        "tag":"detail",
+        "patterns":[
+          "can i know my appointment details ?",
+          "When is my appointment?",
+          "At what time i need to come ?",
+          "When should i come?","I want to know my appointment",
+          "do i have any appointment?"
+        ],
+        "responses":[
+          "Your appointmentment...."
+        ]
+      },
+      {
+        "tag":"cancel",
+        "patterns":[
+          "I want to cancel my appointment",
+          "can i cancel my appointment ?"
+        ],
+        "responses":[
+          "Okay your appointmentment has been cancelled!!"
+        ]
+      }
+    ]
+  }
